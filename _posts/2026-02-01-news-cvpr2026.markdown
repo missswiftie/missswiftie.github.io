@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "CVPR 2026 Paper Accepted"
+date:   2026-02-22 01:09:00 +08:00
+categories: news
+---
+One paper is accepted by **CVPR**2026.
+
