@@ -148,7 +148,7 @@
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               {% if post.image %}
-              <img src="/tn{{post.image}}" alt="education image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="education image" style="width:auto; height:auto; max-width:100%;" />
               {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
@@ -197,7 +197,7 @@
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               {% if post.image %}
-              <img src="/tn{{post.image}}" alt="award image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="award image" style="width:auto; height:auto; max-width:100%;" />
               {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
@@ -219,6 +219,22 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Visitor Map</h2>
+              <p style="text-align:center;">
+                <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=YOUR_SITE_IDENTIFIER&co=2d78ad&cmo=ff5353&cmn=ff5353&ct=ffffff'></script>
+              </p>
+              <p style="text-align:center;font-size:small;color:#666;">
+                This map shows visitor locations from around the world.
+              </p>
+            </td>
+          </tr>
         </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
