@@ -4,7 +4,7 @@ title:  "UniETP: Unifying Environments for Generalizable Embodied Task Planning"
 date:   2026-07-20 00:00:00 +08:00
 categories: research
 image: /images/UniETP.png
-authors: "Peiran Xu, <b>Jiaqi Zheng</b>, Ziyou Wang, Yadong Mu"
+authors: "Peiran Xu*, <b>Jiaqi Zheng</b>*, Ziyou Wang, Yadong Mu"
 venue: arXiv
 arxiv: https://arxiv.org/abs/2607.18062
 code: https://github.com/woyut/UniETP
